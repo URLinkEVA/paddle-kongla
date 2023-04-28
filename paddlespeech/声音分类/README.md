@@ -73,4 +73,23 @@ mel频谱提出背景
 ### 深度学习方法
 优点
 
+### Pretrain+Finetune
+预训练基础上微调
 
+
+# 实践环境声音分类
+选取 `PANNs` 中的预训练模型 `cnn14` 作为 backbone，用于提取声音的深层特征，`SoundClassifer`创建下游的分类网络，实现对输入音频的分类。
+
+数据集采用ESC-50
+
+# 参考文献
+
+[1] Guzhov, A., Raue, F., Hees, J., & Dengel, A.R. (2021). AudioCLIP: Extending CLIP to Image, Text and Audio. ArXiv, abs/2106.13043.
+  
+[2] Kong, Q., Cao, Y., Iqbal, T., Wang, Y., Wang, W., & Plumbley, M.D. (2020). PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 28, 2880-2894.
+  
+[3] Gong, Y., Chung, Y., & Glass, J.R. (2021). AST: Audio Spectrogram Transformer. ArXiv, abs/2104.01778.
+  
+[4] Gemmeke, J.F., Ellis, D.P., Freedman, D., Jansen, A., Lawrence, W., Moore, R.C., Plakal, M., & Ritter, M. (2017). Audio Set: An ontology and human-labeled dataset for audio events. 2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 776-780.
+
+[5] Piczak, K.J. (2015). ESC: Dataset for Environmental Sound Classification. Proceedings of the 23rd ACM international conference on Multimedia.
