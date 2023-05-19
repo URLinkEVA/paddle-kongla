@@ -87,3 +87,18 @@
 - 未把握重点
 - prompt过长
 
+
+
+### 做搜索
+
+检索网站Lexia，PromptHero...
+
+### 看优化
+
+平台润色prompt
+
+promptperfect.jinaai.cn
+
+### 搞收纳
+
+PromptBox用来组织和保存人工智能提示的工具，结合插件保存共享分类prompt
